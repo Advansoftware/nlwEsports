@@ -28,6 +28,7 @@ export function ScreenshotButton({
           backgroundPosition: 'right bottom',
           backgroundSize: 180,
         }}
+        onClick={()=>onScreenshotTook(null)}
       >
         <Trash weight="fill" />
       </button>
